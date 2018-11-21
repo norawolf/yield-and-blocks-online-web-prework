@@ -10,7 +10,7 @@ end
 # call your method here!
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
-  if name.start_with?("T")
+  if name.includes?("T")
     puts "Hi, #{name}"
   end
 end
